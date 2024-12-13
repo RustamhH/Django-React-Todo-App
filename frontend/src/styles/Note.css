@@ -1,0 +1,31 @@
+.note-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0056b3;
+  background-color:  #007bff;
+  border-radius: 12px;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.note-container p {
+  color:white;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-button img {
+  width: 30px;
+  transition: width 0.2s ease-in-out;
+}
+
+.delete-button img:hover {
+  width: 40px;
+  
+}
